@@ -63,7 +63,7 @@ function divide(x, y) {return x/y
 }
 
 // Test 11
-function multiplica(x, y) {
+function multiplica(x, y) {return x*y
 	// Multiplica "x" por "y" y devuelve el valor
 	// Tu código:
 }
