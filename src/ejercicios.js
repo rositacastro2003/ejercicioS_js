@@ -51,7 +51,7 @@ function suma(x, y) {return x+y
 }
 
 // Test 9
-function resta(x, y) {
+function resta(x, y) {return x-y
 	// Resta "y" de "x" y devuelve el valor
 	// Tu código:
 }
