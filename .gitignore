@@ -1,0 +1,16 @@
+
+---
+
+### 🔹 `.gitignore`
+```gitignore
+# Dependencias
+node_modules/
+
+# Archivos de entorno
+.env
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+

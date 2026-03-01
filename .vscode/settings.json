@@ -1,0 +1,26 @@
+{
+	"editor.suggestOnTriggerCharacters": false,
+	"editor.quickSuggestions": {
+		"other": "off",
+		"comments": "off",
+		"strings": "off"
+	},
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.acceptSuggestionOnCommitCharacters": false,
+	"editor.wordBasedSuggestions": "off",
+	"editor.snippetSuggestions": "none",
+	"editor.suggest.enabled": false,
+	"editor.inlineSuggest.enabled": false,
+	"editor.parameterHints.enabled": false,
+	"editor.hover.enabled": "off",
+	"editor.formatOnPaste": false,
+	"editor.formatOnType": false,
+	"editor.tabCompletion": "off",
+	"javascript.suggest.enabled": false,
+	"javascript.validate.enable": true,
+	"typescript.suggest.enabled": false,
+	"typescript.validate.enable": true,
+	"editor.intellisense.enabled": false,
+	"github.copilot.enable": false,
+	"vim.useCtrlKeys": false
+}
