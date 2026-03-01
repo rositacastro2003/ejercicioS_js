@@ -97,7 +97,7 @@ function mayorQueCincuenta(num) {return num >50;
 }
 
 // Test 16
-function obtenerResto(x, y) {
+function obtenerResto(x, y) {return x % y;
 	// Obten el resto de la división de "x" entre "y"
 	// Tu código:
 }
