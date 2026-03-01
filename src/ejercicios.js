@@ -28,7 +28,7 @@ const nuevaMultiplicacion = 10*4===40;
 
 // Test 6
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21%5===1;
 
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
