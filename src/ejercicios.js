@@ -57,7 +57,7 @@ function resta(x, y) {return x-y
 }
 
 // Test 10
-function divide(x, y) {
+function divide(x, y) {return x/y
 	// Divide "x" entre "y" y devuelve el valor
 	// Tu código:
 }
