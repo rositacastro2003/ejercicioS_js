@@ -8,7 +8,7 @@
 
 // Test 1:
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = null;
+const nuevaString = "hola señorita";
 
 // Test 2
 // Crea una variable numérica, puede ser cualquier número:
