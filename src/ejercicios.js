@@ -110,7 +110,7 @@ function esPar(num) {return num % 2=== 0;
 }
 
 // Test 18
-function esImpar(num) {
+function esImpar(num) {return num % 2!==0;
 	// Devuelve "true" si "num" es impar
 	// De lo contrario, devuelve "false"
 	// Tu código:
