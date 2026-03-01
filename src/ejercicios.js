@@ -117,7 +117,7 @@ function esImpar(num) {return num % 2!==0;
 }
 
 // Test 19
-function elevarAlCuadrado(num) {
+function elevarAlCuadrado(num) {return num *num;
 	// Devuelve el valor de "num" elevado al cuadrado
 	// ojo: No es raiz cuadrada!
 	// Tu código:
