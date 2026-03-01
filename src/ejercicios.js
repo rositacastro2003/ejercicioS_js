@@ -44,7 +44,7 @@ function devolverString(str) {
 }
 
 // Test 8
-function suma(x, y) {
+function suma(x, y) {return x+y
 	// "x" e "y" son números
 	// Suma "x" e "y" juntos y devuelve el valor
 	// Tu código:
