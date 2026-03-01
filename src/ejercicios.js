@@ -124,7 +124,7 @@ function elevarAlCuadrado(num) {return num *num;
 }
 
 // Test 20
-function elevarAlCubo(num) {
+function elevarAlCubo(num) {return num * num* num;
 	// Devuelve el valor de "num" elevado al cubo
 	// Tu código:
 }
