@@ -16,7 +16,7 @@ const nuevoNum = 45;
 
 // Test 3
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Test 4
 // Resuelve el siguiente problema matemático:
