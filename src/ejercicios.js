@@ -38,6 +38,7 @@ const nuevoModulo = 21%5===1;
 
 // Test 7
 function devolverString(str) {
+	return str
 	// "Return" la string provista: str
 	// Tu código:
 }
