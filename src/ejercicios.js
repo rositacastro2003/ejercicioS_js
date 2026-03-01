@@ -103,7 +103,7 @@ function obtenerResto(x, y) {return x % y;
 }
 
 // Test 17
-function esPar(num) {
+function esPar(num) {return num % 2=== 0;
 	// Devuelve "true" si "num" es par
 	// De lo contrario, devuelve "false"
 	// Tu código:
