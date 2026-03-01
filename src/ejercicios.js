@@ -90,7 +90,7 @@ function menosQueNoventa(num) {return num<90
 }
 
 // Test 15
-function mayorQueCincuenta(num) {
+function mayorQueCincuenta(num) {return num >50;
 	// Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
 	// De lo contrario, devuelve "false"
 	// Tu código:
