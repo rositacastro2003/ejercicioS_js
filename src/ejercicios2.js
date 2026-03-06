@@ -285,6 +285,15 @@ function factorial(n) {
 	// Nota: factorial(0) = 1 por definición.
 	// Usa un bucle for o while.
 	// Tu código:
+	if (n === 0) return 1;
+
+  let resultado = 1;
+
+  for (let i = 1; i <= n; i++) {
+    resultado *= i;
+  }
+
+  return resultado;
 }
 
 // Test 17:
