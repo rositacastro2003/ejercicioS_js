@@ -137,7 +137,7 @@ function elevar(num, exponent) {
 }
 
 // Test 22
-function redondearNumero(num) {
+function redondearNumero(num) {r
 	// Redondea "num" al entero más próximo y devuélvelo
 	// Tu código:
 }
