@@ -229,6 +229,14 @@ function formatearNombre(nombre, apellido, mayusculas) {
 	// Ejemplo: formatearNombre("juan", "perez", true) → "JUAN PEREZ"
 	// Ejemplo: formatearNombre("juan", "perez", false) → "Juan Perez"
 	// Tu código:
+	 if (mayusculas) {
+    return (nombre + " " + apellido).toUpperCase();
+  }
+
+  let n = nombre.charAt(0).toUpperCase() + nombre.slice(1).toLowerCase();
+  let a = apellido.charAt(0).toUpperCase() + apellido.slice(1).toLowerCase();
+
+  return n + " " + a;
 }
 
 // ██████  BUCLES BÁSICOS ████████████████████████
