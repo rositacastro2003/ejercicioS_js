@@ -248,6 +248,13 @@ function sumarHasta(limite) {
 	// Ejemplo: sumarHasta(5) → 1+2+3+4+5 = 15
 	// Usa un bucle for o while.
 	// Tu código:
+	let suma = 0;
+
+  for (let i = 1; i <= limite; i++) {
+    suma += i;
+  }
+
+  return suma;
 }
 
 // Test 15:
