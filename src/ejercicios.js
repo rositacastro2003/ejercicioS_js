@@ -143,7 +143,7 @@ function redondearNumero(num) {return Math.round(num);
 }
 
 // Test 23
-function redondearHaciaArriba(num) {
+function redondearHaciaArriba(num) {return Math.ceil(num);
 	// Redondea "num" hacia arriba (al próximo entero) y devuélvelo
 	// Tu código:
 }
