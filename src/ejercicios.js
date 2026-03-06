@@ -179,7 +179,7 @@ function agregarSimboloExclamacion(str) {return str +"!";
 }
 
 // Test 27
-function combinarNombres(nombre, apellido) {
+function combinarNombres(nombre, apellido) {return nombre +" " + apellido;
 	// Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
 	// Ejemplo: "Soy", "Hola" -> "Soy Hola"
 	// Tu código:
