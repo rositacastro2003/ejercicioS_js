@@ -302,6 +302,15 @@ function buscarNumero(array, objetivo) {
 	// Devuelve true si el objetivo está en el array, false en caso contrario.
 	// Usa un bucle for para recorrer el array (no uses .includes()).
 	// Tu código:
+	 for (let i = 0; i < array.length; i++) {
+
+    if (array[i] === objetivo) {
+      return true;
+    }
+
+  }
+
+  return false;
 }
 
 // Test 18:
