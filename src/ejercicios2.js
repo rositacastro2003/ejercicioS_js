@@ -19,6 +19,17 @@ function esMayorDeEdad(edad) {  return edad >= 18
 
 // Test 2:
 function clasificarTriangulo(lado1, lado2, lado3) {
+	
+	if ( lado1 ===  lado2 && lado2=== lado3)
+		return "Equilátero";
+	if ( lado1 === lado2 || lado1=== lado3||lado3 ===lado2){
+		return "Isósceles";
+	}
+	if (lado1 + lado2 <= lado3 || lado1 + lado3 <= lado2 || lado3 + lado2 <= lado1) {
+		return "No es triángulo";
+	} 
+	return "Escaleno";
+	
 	// Recibe tres números representando los lados de un triángulo.
 	// Devuelve:
 	// - "Equilátero" si los tres lados son iguales
