@@ -157,6 +157,13 @@ function numeroRandom() {return Math.random();
 
 // Test 25
 function esPositivo(numero) {
+	if(numero>0) {
+		return "Es positivo";
+	}
+	else if(numero<0){ 
+		return "Es negativo";
+	}
+		return false;
 	//La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo.
 	//Si el número es positivo, devolver ---> "Es positivo"
 	//Si el número es negativo, devolver ---> "Es negativo"
