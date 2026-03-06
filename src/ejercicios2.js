@@ -186,16 +186,17 @@ function calcularPropina(total, porcentaje) {
 
 // ██████  STRINGS Y VALIDACIONES ████████████████████████
 
-// Test 11:
-function esPalabraPalindroma(palabra) { let texto = palabra.toLowerCase();
-  let invertida = texto.split("").reverse().join("");
-
-  return texto === invertida;
+// Test 11: let contador = 0;
+function esPalabraPalindroma(palabra) {
 	// Recibe un string.
 	// Devuelve true si la palabra se lee igual de izquierda a derecha
 	// y de derecha a izquierda (ignora mayúsculas/minúsculas).
 	// Ejemplo: "reconocer" → true, "hola" → false, "Ana" → true
 	// Tu código:
+	let texto = palabra.toLowerCase();
+  let invertida = texto.split("").reverse().join("");
+
+  return texto === invertida;
 }
 
 // Test 12:
@@ -205,6 +206,18 @@ function contarVocales(texto) {
 	// No distingue entre mayúsculas y minúsculas.
 	// Ejemplo: contarVocales("Hola Mundo") → 4
 	// Tu código:
+	 let contador = 0;
+  let vocales = "aeiou";
+
+  for (let i = 0; i < texto.length; i++) {
+
+    if (vocales.includes(texto[i].toLowerCase())) {
+      contador++;
+    }
+
+  }
+
+  return contador;
 }
 
 // Test 13:
