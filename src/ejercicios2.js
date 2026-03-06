@@ -65,6 +65,16 @@ function obtenerDiaSemana(numero) {
 	// 1 = "Lunes", 2 = "Martes", ..., 7 = "Domingo"
 	// Si el número no está en el rango, devuelve "Día inválido"
 	// Tu código:
+	  switch (numero) {
+    case 1: return "Lunes";
+    case 2: return "Martes";
+    case 3: return "Miércoles";
+    case 4: return "Jueves";
+    case 5: return "Viernes";
+    case 6: return "Sábado";
+    case 7: return "Domingo";
+    default: return "Día inválido";
+  }
 }
 
 // Test 5:
@@ -75,6 +85,10 @@ function esAnioBisiesto(anio) {
 	// EXCEPTO si es divisible por 100 (a menos que también sea divisible por 400).
 	// Ejemplos: 2000 → true, 1900 → false, 2024 → true, 2023 → false
 	// Tu código:
+	 if ((anio % 4 === 0 && anio % 100 !== 0) || anio % 400 === 0) {
+    return true;
+  }
+  return false;
 }
 
 // ██████  OPERADORES LÓGICOS Y MATEMÁTICOS ████████████████████████
