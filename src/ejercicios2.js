@@ -108,6 +108,7 @@ function validarContraseña(password) {
 
   return password.length >= 8 && mayuscula && numero;
 
+
 }
 
 // Test 7:
@@ -120,6 +121,12 @@ function calcularIMC(peso, altura) {
 	// - 25 <= IMC < 30 → "Sobrepeso"
 	// - IMC >= 30 → "Obesidad"
 	// Tu código:
+	 let imc = peso / (altura * altura);
+
+  if (imc < 18.5) return "Bajo peso";
+  if (imc < 25) return "Peso normal";
+  if (imc < 30) return "Sobrepeso";
+  return "Obesidad";
 }
 
 // Test 8:
